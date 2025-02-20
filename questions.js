@@ -2,12 +2,12 @@
 
 const questions = [
   {
-    category: "programming",
+    category: "Java",
     questions: [
       {
-        question: "What does HTML stand for?",
-        options: ["Hyper Text Pre Processor", "Hyper Text Markup Language", "Hyper Text Multiple Language", "Hyper Tool Multi Language"],
-        correctAnswer: 1,
+        question: "Number of primitive data types in Java are??",
+         options: ["6", "7", "8", "9"],
+          correctAnswer: 3,
       },
       {
         question: "Which of the following is a correct way to declare a variable in JavaScript?",
