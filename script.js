@@ -10,7 +10,7 @@ const QUIZ_TIME_LIMIT = 30;
 let currentTime = QUIZ_TIME_LIMIT;
 let timer = null;
 
-let quizCategory = "programming";
+let quizCategory = "Java";
 let numberOfQuestions = 5;
 let currentQuestion = null;
 const questionsIndexHistory = [];
