@@ -130,137 +130,136 @@ const questions = [{
         ],
     },
 
-  {
-    category: "geography",
-    questions: [
-      {
-        question: "Which is the longest river in the world?",
-        options: ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which country is known as the Land of the Rising Sun?",
-        options: ["China", "South Korea", "Japan", "Thailand"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the largest ocean in the world?",
-        options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which country has the largest population in the world?",
-        options: ["India", "China", "United States", "Indonesia"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which country is known for the Great Barrier Reef?",
-        options: ["Australia", "United States", "South Africa", "New Zealand"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which is the smallest country in the world?",
-        options: ["Monaco", "Liechtenstein", "Vatican City", "San Marino"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which is the tallest mountain in the world?",
-        options: ["K2", "Mount Kilimanjaro", "Mount Everest", "Mount Fuji"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the capital of Canada?",
-        options: ["Ottawa", "Toronto", "Vancouver", "Montreal"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which desert is the largest hot desert in the world?",
-        options: ["Gobi Desert", "Atacama Desert", "Sahara Desert", "Karakum Desert"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which country is known as the Land of the Midnight Sun?",
-        options: ["Sweden", "Finland", "Norway", "Denmark"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the longest mountain range in the world?",
-        options: ["Himalayas", "Rocky Mountains", "Andes", "Alps"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which river flows through Egypt?",
-        options: ["Amazon River", "Yangtze River", "Nile River", "Ganges River"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which is the largest island in the world?",
-        options: ["Greenland", "New Guinea", "Borneo", "Madagascar"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the capital of Japan?",
-        options: ["Beijing", "Seoul", "Tokyo", "Hong Kong"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which country has the most time zones?",
-        options: ["United States", "Russia", "Canada", "Australia"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which country is known for the Eiffel Tower?",
-        options: ["Germany", "Italy", "Spain", "France"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which is the most populous city in the world?",
-        options: ["Tokyo", "Shanghai", "New York City", "Delhi"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which mountain range is located in South America?",
-        options: ["Himalayas", "Rocky Mountains", "Appalachian Mountains", "Andes"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which continent is known as the 'Dark Continent'?",
-        options: ["Asia", "Africa", "South America", "Europe"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the capital of Brazil?",
-        options: ["Buenos Aires", "Rio de Janeiro", "Brasília", "Sao Paulo"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the official language of Brazil?",
-        options: ["Spanish", "English", "Portuguese", "French"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which country has the most volcanoes?",
-        options: ["Japan", "Indonesia", "United States", "Italy"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which city is known as the Big Apple?",
-        options: ["Los Angeles", "New York City", "Chicago", "San Francisco"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which ocean is located to the east of Africa?",
-        options: ["Indian Ocean", "Pacific Ocean", "Southern Ocean", "Atlantic Ocean"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which is the second largest continent by area?",
-        options: ["Asia", "Africa", "North America", "Europe"],
-        correctAnswer: 1,
-      },
-    ],
-  },
-
+     {
+        category: "Html",
+        questions: [{
+                question: "Who is known as the father of HTML?",
+                options: [" Tim Berners-Lee", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What does HTML stand for?",
+                options: ["HyperText Markup Language", "HighText Machine Language", "HyperText Markdown Language", "None of the above"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which tag is used to create a hyperlink in HTML?",
+                options: ["<link>", " <a>", " <href>", " <hyperlink>"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What is the purpose of the <head> tag in HTML?",
+                options: ["To define the main content of the document", "To contain metadata and links to external resources", "To create a heading on the page", "To define the footer of the document"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which attribute is used to uniquely identify an HTML element?",
+                options: ["class", "id", "name", "style"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which HTML tag is used to define an internal style sheet?",
+                options: ["<css>", " <script>", "<style>", "<link>"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which attribute specifies an alternate text for an image if the image cannot be displayed?",
+                options: ["title", "alt", "src", "href"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What is the purpose of the <title> tag in HTML?",
+                options: ["Defines the title of the webpage", "Adds a subtitle to the webpage", "Specifies the character encoding", "Defines a heading in the webpage"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which attribute is used to define the type of an <input> element in an HTML form?",
+                options: ["type", "value", "name", "form"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which tag is used to define a clickable button in HTML?",
+                options: ["<input>", "<button>", "<click>", "<a>"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which tag is used to define a form in HTML?",
+                options: ["<form>", "<input>", "<button>", "<fieldset>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What does the <link> tag define in an HTML document?",
+                options: ["Defines the character set", "Links an external resource to the document", "Embeds a video file", "Defines a navigation link"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What does the <meta> tag do in HTML?",
+                options: ["Defines the title of the document", "Provides metadata about the HTML document", "Embeds an image in the document", " Creates a hyperlink to another page"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which HTML tag is used to define the body of a document?",
+                options: ["<body>", "<content>", "<main>", "<section>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which tag is used to create a dropdown list in HTML?",
+                options: ["<select>", "<input>", "<dropdown>", "<option>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which tag is used to create a division or section in an HTML document?",
+                options: ["<div>", "<section>", "<group>", "<span>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which attribute is used to specify an alternative text for an image in HTML?",
+                options: ["alt", "src", "href", "title"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which HTML tag is used to define an input field?",
+                options: ["<input>", "<textarea>", "<input>", "<area>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What is the correct HTML element for inserting an image?",
+                options: ["<img>", "<image>", "<src>", " <picture>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "How can you include a CSS file in an HTML document?",
+                options: ["<style>", "<script>", "<link>", "<css>"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which HTML tag is used to define a table header?",
+                options: ["<th>", "<td>", "<tr>", "<thead>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which tag is used to display a table in HTML?",
+                options: ["<td>", "<table>", "<tr>", "<th>"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which HTML tag is used to define an unordered list?",
+                options: ["<ul>", "<ol>", "<list>", "<li>"],
+                correctAnswer: 0,
+            },
+            {
+                question: "How can you make a numbered list in HTML?",
+                options: ["<ul>", "<ol>", "<list>", "<dl>"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which HTML element is used to display a scalar measurement within a range?",
+                options: ["<meter>", "<progress>", "<gauge>", " <range>"],
+                correctAnswer: 0,
+            },
+        ],
+    },
+                   
   {
     category: "mathematics",
     questions: [
