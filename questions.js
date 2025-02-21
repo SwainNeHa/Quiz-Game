@@ -1,136 +1,134 @@
 // Array of questions grouped by category (25 questions each)
 
-const questions = [
-  {
-    category: "Java",
-    questions: [
-      {
-        question: "Number of primitive data types in Java are??",
-         options: ["6", "7", "8", "9"],
-          correctAnswer: 3,
-      },
-      {
-        question: "Which of the following is a correct way to declare a variable in JavaScript?",
-        options: ["var x = 10;", "variable x = 10;", "int x = 10;", "let 10 = x;"],
-        correctAnswer: 0,
-      },
-      {
-        question: "How do you write comment in Python?",
-        options: ["// This is a comment", "# This is a comment", "/* This is a comment */", "<!-- This is a comment -->"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What does CSS stand for?",
-        options: ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets", "Cascading Simple Sheets"],
-        correctAnswer: 0,
-      },
-      {
-        question: "In JavaScript, how do you create a function?",
-        options: ["create function myFunction()", "def function myFunction()", "func myFunction()", "function myFunction()"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What does the 'typeof' operator do in JavaScript?",
-        options: ["Checks the type of a variable", "Declares a variable", "Assigns a value to a variable", "Converts a variable to another type"],
-        correctAnswer: 0,
-      },
-      {
-        question: "In C, how do you define a function?",
-        options: ["function myFunction()", "def myFunction()", "void myFunction()", "func myFunction()"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which of the following is a characteristic of Python?",
-        options: ["Compiled language", "Dynamic typing", "Low-level language", "Static typing"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which language is used for Android development?",
-        options: ["Python", "Java", "JavaScript", "C++"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the purpose of the 'forEach()' method in JavaScript?",
-        options: ["Removes duplicate elements from an array", "Filters elements in an array", "Sorts an array", "Iterates through each element in an array"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What does the 'return' keyword do in a function?",
-        options: ["Ends the function and returns a value", "Continues the function", "Exits the function without value", "Ends the program execution"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which of the following is NOT a semantic HTML element?",
-        options: ["<header>", "<footer>", "<div>", "<article>"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the primary purpose of a 'for' loop in programming?",
-        options: ["Repeat code for a specified number of times", "Repeat code until a condition is true", "Define a function", "Evaluate conditions in the loop"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which data structure is ideal for LIFO (Last In First Out)?",
-        options: ["Queue", "Stack", "Linked list", "Array"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which command is used in Git to store changes in the repository?",
-        options: ["git commit", "git push", "git pull", "git add"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What does the 'map()' function do in JavaScript?",
-        options: ["Sorts an array", "Filters out items", "Creates a new array", "Modifies the original array"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is an IDE?",
-        options: ["An Integrated Development Environment", "A function for code execution", "An interpreter", "An input method for writing code"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which of the following is a feature of object-oriented programming?",
-        options: ["Encapsulation", "Modularity", "Recursion", "Memory Management"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What does SQL stand for?",
-        options: ["Simple Question Language", "Systematic Query Language", "Standard Question Language", "Structured Query Language"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which of these is an example of a non-relational database?",
-        options: ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
-        correctAnswer: 0,
-      },
-      {
-        question: "How do you write comment in CSS?",
-        options: ["// This is a comment", "/* This is a comment */", "# This is a comment", "<!-- This is a comment -->"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which of the following algorithms is used to sort an array by comparing elements?",
-        options: ["Bubble sort", "Insertion sort", "Quick sort", "Merge sort"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What does the 'finally' block in Java do?",
-        options: ["Handles all exceptions", "Attempts to handle runtime exceptions", "Executes code after try-catch", "Defines execution start point"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which data structure is best for searching elements quickly?",
-        options: ["Binary search tree", "Array", "Linked list", "Queue"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the correct syntax for a JavaScript if statement?",
-        options: ["if (condition) {}", "if condition {}", "if {} else", "if {condition}"],
-        correctAnswer: 0,
-      },
-    ],
-  },
+const questions = [{
+        category: "Java",
+        questions: [{
+                question: "Number of primitive data types in Java are??",
+                options: ["6", "7", "8", "9"],
+                correctAnswer: 2,
+            },
+            {
+                question: "What is the size of float and double in java?",
+                options: ["32 and 64", "32 and 32", "64 and 64", "64 and 32"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Find the output of the following code. int Integer = 24, char String = 'I', System.out.print(Integer), System.out.print(String)",
+                options: ["Compile error", "Throws exception", "I", "24 I"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Find the output of the following program.public class Solution{ public static void main(String[] args){ short x = 10;x =  x * 5;System.out.print(x);}}",
+                options: ["50", "10", "Compile error", "Exception"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Select the valid statement to declare and initialize an array.",
+                options: ["int[] A = {}", "int[] A = {1, 2, 3}", "int[] A = (1, 2, 3)", "int[][] A = {1,2,3}"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Arrays in java are-",
+                options: ["Object reference", "objects", "Primitive data type", "None"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Identify the corrected definition of a package.",
+                options: ["A package is a collection of editing tools", "A package is a collection of classes", "A package is a collection of classes and interfaces", "A package is a collection of interfaces"],
+                correctAnswer: 2,
+            },
+            {
+                question: " In which of the following is toString() method defined?",
+                options: ["java.lang.Object", "java.lang.String", "java.lang.util", "None"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which language is used for Android development?",
+                options: ["Python", "Java", "JavaScript", "C++"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Identify the output of the following program.String str = “abcde”;System.out.println(str.substring(1, 3));",
+                options: ["abc", "bc", "bcd", "cd"],
+                correctAnswer: 1,
+            },
+            {
+                question: " Identify the output of the following program.Public class Test{Public static void main(String argos[]){String str1 = “one”;String str2 = “two”;System.out.println(str1.concat(str2));}}",
+                options: ["one", "two", "onetwo", "twoone"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Total constructor string class have?",
+                options: ["3", "7", "13", "20"],
+                correctAnswer: 2,
+            },
+            {
+                question: "What is the primary purpose of a 'for' loop in programming?",
+                options: ["Repeat code for a specified number of times", "Repeat code until a condition is true", "Define a function", "Evaluate conditions in the loop"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Find the output of the following code.int ++a = 100System.out.println(++a);",
+                options: ["101", "Compile error as ++a is not valid identifier", "100", "None"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Find the output of the following code.if(1 + 1 + 1 + 1 + 1 == 5){System.out.print(“TRUE”);}else{System.out.print(“FALSE”);}",
+                options: ["TRUE", "FALSE", "Compile error", "None"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Identify the return type of a method that does not return any value.",
+                options: ["int", "void", "double", "None"],
+                correctAnswer: 1,
+            },
+            {
+                question: " Identify the modifier which cannot be used for constructor.",
+                options: ["public", "protected", "private", "static"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Which of the following is a feature of object-oriented programming?",
+                options: ["Encapsulation", "Modularity", "Recursion", "Memory Management"],
+                correctAnswer: 0,
+            },
+            {
+                question: " Find the output of the following code.Public class Solution{Public static void main(String args[]){Int i;for(i = 1; i < 6; i++){ if(i > 3) continue;}System.out.println(i);}}",
+                options: ["3", "4", "5", "6"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Identify the infinite loop.",
+                options: ["for(; ;)", "for(int i = 0; i < 1; i--)", "for(int i = 0; ;i++)", "All of the above"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Exception created by try block is caught in which block",
+                options: ["catch", "throw", "final", "none"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which of the following exception is thrown when divided by zero statement is executed?",
+                options: ["NullPointerException", "NumberFormatException", "ArithmeticException", "None"],
+                correctAnswer: 2,
+            },
+            {
+                question: "What does the 'finally' block in Java do?",
+                options: ["Handles all exceptions", "Attempts to handle runtime exceptions", "Executes code after try-catch", "Defines execution start point"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Identify the incorrect Java feature.",
+                options: ["Object oriented", "Use of pointers", "Dynamic", "Architectural neural"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which of the following is used to find and fix bugs in the program?",
+                options: ["JDK", "JRE", "JVM", "JDB"],
+                correctAnswer: 3,
+            },
+        ],
+    },
 
   {
     category: "geography",
