@@ -130,7 +130,7 @@ const questions = [{
         ],
     },
 
-     {
+    {
         category: "Html",
         questions: [{
                 question: "Who is known as the father of HTML?",
@@ -259,266 +259,264 @@ const questions = [{
             },
         ],
     },
-                   
-  {
-    category: "mathematics",
-    questions: [
-      {
-        question: "What is the square root of 144?",
-        options: ["10", "11", "12", "13"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is 15 × 13?",
-        options: ["180", "185", "195", "200"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the value of 8³?",
-        options: ["512", "216", "256", "128"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is 48 ÷ 6?",
-        options: ["7", "8", "9", "10"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of 3 + 5 × 4?",
-        options: ["20", "22", "24", "23"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the sum of the angles in a triangle?",
-        options: ["180°", "360°", "90°", "270°"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the perimeter of a square with a side length of 4 cm?",
-        options: ["12 cm", "16 cm", "20 cm", "24 cm"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is 11²?",
-        options: ["121", "131", "141", "111"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is 9 × 12?",
-        options: ["105", "110", "108", "120"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the value of 16 ÷ 4?",
-        options: ["2", "3", "4", "5"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is 25% of 200?",
-        options: ["30", "40", "50", "60"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the area of a rectangle with length 5 cm and width 8 cm?",
-        options: ["40 cm²", "50 cm²", "55 cm²", "60 cm²"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of 10 ÷ 2 + 3?",
-        options: ["8", "7", "9", "6"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is 3 × 7 + 2?",
-        options: ["20", "21", "22", "23"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the greatest common divisor (GCD) of 24 and 36?",
-        options: ["4", "6", "8", "12"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the least common multiple (LCM) of 6 and 8?",
-        options: ["24", "32", "48", "56"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of 2³ × 3?",
-        options: ["12", "15", "18", "24"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of 10 × (5 + 3)?",
-        options: ["80", "70", "60", "50"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of 14 × 14?",
-        options: ["186", "196", "206", "216"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the sum of the first 10 positive integers?",
-        options: ["50", "55", "60", "65"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is 12 × 15?",
-        options: ["150", "160", "170", "180"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the area of a circle with a radius of 3 cm? (Use π = 3.14)",
-        options: ["28.26 cm²", "31.42 cm²", "36.14 cm²", "39.14 cm²"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of (8 + 2) × 3?",
-        options: ["30", "32", "34", "28"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the value of 50% of 80?",
-        options: ["30", "35", "40", "45"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the value of 25 ÷ 5 × 3?",
-        options: ["12", "15", "18", "20"],
-        correctAnswer: 1,
-      },
-    ],
-  },
 
-  {
-    category: "entertainment",
-    questions: [
-      {
-        question: "Who won the Academy Award for Best Actor in 2022?",
-        options: ["Leonardo DiCaprio", "Will Smith", "Joaquin Phoenix", "Matthew McConaughey"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which movie won the Academy Award for Best Picture in 2021?",
-        options: ["Parasite", "1917", "The Shape of Water", "Nomadland"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Who played the character of Jack Dawson in the movie Titanic?",
-        options: ["Leonardo DiCaprio", "Brad Pitt", "Johnny Depp", "Tom Hanks"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which TV show featured the characters Daenerys Targaryen and Jon Snow?",
-        options: ["Breaking Bad", "Game of Thrones", "The Witcher", "Vikings"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Who is known as the 'King of Pop'?",
-        options: ["Michael Jackson", "Prince", "Whitney Houston", "Elvis Presley"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which superhero is known for saying, 'I am Iron Man'?",
-        options: ["Black Panther", "Captain America", "Thor", "Iron Man"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which movie franchise includes a character named Luke Skywalker?",
-        options: ["Guardians of the Galaxy", "Star Wars", "The Matrix", "Star Trek"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Who played the character of Hermione Granger in the Harry Potter film series?",
-        options: ["Emma Watson", "Anne Hathaway", "Maggie Smith", "Natalie Portman"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Who directed the movie 'Inception'?",
-        options: ["James Cameron", "Steven Spielberg", "Christopher Nolan", "Martin Scorsese"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which artist released the album 'Lover' in 2019?",
-        options: ["Billie Eilish", "Taylor Swift", "Ed Sheeran", "Ariana Grande"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What was the first video game to feature Mario?",
-        options: ["Mario Kart", "Super Mario Bros.", "Donkey Kong", "The Legend of Zelda"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which movie features the famous line, 'Here's looking at you, kid'?",
-        options: ["Casablanca", "Citizen Kane", "The Godfather", "Gone with the Wind"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which country won the FIFA World Cup in 2018?",
-        options: ["France", "Germany", "Argentina", "Brazil"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Who created the comic book character Spider-Man?",
-        options: ["Jack Kirby", "Stan Lee", "Steve Ditko", "John Romita"],
-        correctAnswer: 1,
-      },
-      {
-        question: "In which movie did Heath Ledger portray the Joker?",
-        options: ["The Dark Knight", "Batman Begins", "The Dark Knight Rises", "Joker"],
-        correctAnswer: 0,
-      },
-      {
-        question: "Which band is known for the hit song 'Bohemian Rhapsody'?",
-        options: ["The Rolling Stones", "Led Zeppelin", "Queen", "The Beatles"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which actress starred as Katniss Everdeen in 'The Hunger Games'?",
-        options: ["Kristen Stewart", "Shailene Woodley", "Jennifer Lawrence", "Emma Stone"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Who played the role of the Joker in the 2019 movie 'Joker'?",
-        options: ["Heath Ledger", "Johnny Depp", "Joaquin Phoenix", "Jared Leto"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which Disney animated film features the song 'A Whole New World'?",
-        options: ["Cinderella", "Aladdin", "Beauty and the Beast", "The Little Mermaid"],
-        correctAnswer: 1,
-      },
-      {
-        question: "Which TV series features the characters of Walter White and Jesse Pinkman?",
-        options: ["Narcos", "Better Call Saul", "The Sopranos", "Breaking Bad"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Who sang the hit song 'Shape of You'?",
-        options: ["Justin Bieber", "Ariana Grande", "Sam Smith", "Ed Sheeran"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which film won the Academy Award for Best Picture in 2020?",
-        options: ["The Irishman", "Once Upon a Time in Hollywood", "Parasite", "1917"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What year did the movie 'The Matrix' release?",
-        options: ["1997", "1998", "2000", "1999"],
-        correctAnswer: 3,
-      },
-      {
-        question: "Which actor played Tony Stark/Iron Man in the Marvel Cinematic Universe?",
-        options: ["Mark Ruffalo", "Chris Evans", "Robert Downey Jr.", "Chris Hemsworth"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which singer is known as the 'Queen of Pop'?",
-        options: ["Mariah Carey", "Lady Gaga", "Whitney Houston", "Madonna"],
-        correctAnswer: 3,
-      },
-    ],
-  },
+    {
+        category: "Css",
+        questions: [{
+                question: "What is CSS?",
+                options: ["CSS is a style sheet language", "CSS is designed to separate the presentation and content, including layout, colors, and fonts", "CSS is the language used to style the HTML documents", "All of the mentioned"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Which of the following tag is used to embed css in html page?",
+                options: ["<css>", "<!DOCTYPE html>", "<script>", "<style>"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Which of the following CSS selectors are used to specify a group of elements?",
+                options: ["tag", "id", "class", "both class and tag"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which of the following CSS framework is used to create a responsive design",
+                options: ["django", "rails", "larawell", "bootstrap"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Which of the following CSS selector is used to specify a rule to bind a particular unique element??",
+                options: ["tag", "id", "class", "both class and tag"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which of the following CSS style property is used to specify an italic text?",
+                options: ["style", "font", "font-style", "@font-face"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which of the following is the correct syntax to link an external style sheet in the HTML file?",
+                options: ["<link rel=”stylesheet” href=”style.css” />", "<link rel=”stylesheet” src=”style.css” />", "<style rel=”stylesheet” src=”style.css” />", "<style rel=”stylesheet” link=”style.css” />"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which of the following function defines a linear gradient as a CSS image?",
+                options: ["gradient()", "linear-gradient()", "grayscale()", "image()"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which of the following CSS property can be used to set the image as a border instead of the border style?",
+                options: ["background-image-source", "background-image", "border-image-source", "border-image"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which of the following is the correct way to apply CSS Styles?",
+                options: ["in an external CSS file", "inside an HTML element", "inside the <head> section of an HTML page", "all of the mentioned"],
+                correctAnswer: 3,
+            },
+            {
+                question: " Which of the following CSS property sets the font size of text?",
+                options: ["font-size", "text-size", "text", "size"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which of the following CSS property sets what kind of line decorations are added to an element, such as underlines, overlines, etc?",
+                options: ["text-decoration", "text-style", "text-decoration-line", "text-line"],
+                correctAnswer: 2,
+            },
+            {
+                question: " What will be the output of the following CSS code snippet?span {border: 1px solid red;outline: green dotted thick;}",
+                options: ["All span elements will have a green thick border and a red outline", "All span elements will have a red border and a green dotted outline", "All span elements will have a outer green dotted border and an inner red border", "All span elements will have an outer red border and inner green dotted border"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which of the following CSS property sets the shadow for a box element?",
+                options: ["set-shadow", "box-shadow", "shadow", "canvas-shadow"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which of the following CSS property is used to set the color of the text?",
+                options: ["text-decoration", "pallet", "colour", "color"],
+                correctAnswer: 3,
+            },
+            {
+                question: "What will be the output of the following CSS code?div {border-width:5px;	 border-style:dotted solid double dashed;}",
+                options: ["Box having dotted bottom outline, solid right outline, double top outline and dashed left outline", "Box having dotted bottom outline, solid left outline, double top outline and dashed left outline", "Box having dotted top outline, solid right outline, double bottom outline and dashed left outline", "Box having dotted top outline, solid left outline, double bottom outline and dashed right outline"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which of the following CSS property defines the space between cells in a table?",
+                options: ["border-spacing", "border-style", "border", "none of the mentioned"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which of the following CSS3 property can be used to allow line breaks within words?",
+                options: ["line-break", "line-wrap", "word-wrap", "word-break"],
+                correctAnswer: 3,
+            },
+            {
+                question: "What is the primary purpose of CSS in web development?",
+                options: ["To create web pages", "To style web pages", "To store data", "To program web applications"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which of the following is a valid way to integrate CSS into a webpage?",
+                options: ["Inline", "External", "Internal", "All of the above"],
+                correctAnswer: 3,
+            },
+            {
+                question: "Given the following CSS, what color will the <h1>text be?body { color: red; } h1 { color: blue; }",
+                options: ["Red", "Blue", "Green", "Black"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which selector is used to target an element based on its id?",
+                options: ["#id", ".id", "*id", "id"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What does the universal selector (*) do in CSS?",
+                options: ["Targets all elements in a document", "Targets no elements", "Targets the body element", "Targets elements with a specific id"],
+                correctAnswer: 0,
+            },
+            {
+                question: "How do you select elements with the class name 'example'?",
+                options: ["*example", "#example", ".example", "example"],
+                correctAnswer: 2,
+            },
+            {
+                question: "What is the correct syntax to select all <p> elements inside <div> elements?",
+                options: ["div p", "div + p", "div > p", "p > div"],
+                correctAnswer: 0,
+            },
+        ],
+    },
+
+    {
+        category: "JavaScript",
+        questions: [{
+                question: "Which of the following is a correct syntax to dislay 'Hello World' in an alert box using JavaScript?",
+                options: ["alertBox('Hello World');", "alert('Hello World');", "msgAlert('Hello World');", "displayAlert('Hello World');"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What is the purpose of JavaScript in web development?",
+                options: ["To structure web pages", "To style web pages", "To add interactivity and dynamic content to web pages", "To store data on the server"],
+                correctAnswer: 2,
+            },
+            {
+                question: "Which keyword is used for declaring a variable in JavaScript that can be reassigned?",
+                options: ["const", "var", "let", "static"],
+                correctAnswer: 2,
+            },
+            {
+                question: "In JavaScript, which of the following is a valid variable name?",
+                options: ["2names", "$name", "-name", "name2"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which data type in JavaScript is used to represent logical values??",
+                options: ["String", "Boolean", "Number", "Undefined"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What does the undefined value in JavaScript represent?",
+                options: ["An unassigned variable", "A null value", "A logical false", "An error condition"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What will be the output of the following code?console.log(typeof null);",
+                options: ["'object'", "'null'", "'undefined'", "'number'"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Which operator is used to check both the value and the type of a variable in JavaScript?",
+                options: ["==", "===", "!=", "!=="],
+                correctAnswer: 1,
+            },
+            {
+                question: "What is the output of the following code snippet?var a = 10;console.log(a);",
+                options: ["10", "'10'", "undefined", "null"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What is the output of the following code snippet?let x = 'Hello';let y = 'World';console.log(x + ' ' + y);",
+                options: ["HelloWorld", "'Hello World'", "'Hello' 'World'", "Hello World"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which statement is used to execute a block of code multiple times in JavaScript?",
+                options: ["for", "if", "return", "break"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What does the if statement in JavaScript do?",
+                options: ["Declares a variable", "Executes a block of code based on a condition", "Prints a message to the console", "Loops through a block of code"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Which of the following is not a loop structure in JavaScript?",
+                options: ["while", "for", "if", "do-while"],
+                correctAnswer: 2,
+            },
+            {
+                question: "In a switch statement, what keyword is used to terminate a case in JavaScript?",
+                options: ["end", "break", "stop", "exit"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What will be the output of the following code?let a = 2;if(a > 3) {console.log('Yes');} else {console.log('No');}",
+                options: ["Yes", "No", "Undefined", "Error"],
+                correctAnswer: 1,
+            },
+            {
+                question: "In a for loop, what are the three optional expressions, separated by semicolons?",
+                options: ["Initializer, Condition, Incrementer", "Condition, Incrementer, Initializer", "Incrementer, Initializer, Condition", "Condition, Initializer, Incrementer"],
+                correctAnswer: 0,
+            },
+            {
+                question: "What is the output of this code snippet?for (let i = 0; i < 3; i++) {console.log(i);}",
+                options: ["012", "123", "0-1-2", "1-2-3"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Consider the following code:let x = 5;let result = (x > 3) ? 'Yes' : 'No';console.log(result);What is the output?",
+                options: ["'Yes'", "'No'", "true", "false"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Identify the problem in this code:let i = 0;while (i < 3) {console.log(i);}",
+                options: ["Infinite loop", "Syntax error", "Logical error", "No output"],
+                correctAnswer: 0,
+            },
+            {
+                question: "Find the error in the following code:for (let i = 0; i <= 5; i++) {if(i % 2 == 0) continue;console.log(i);}",
+                options: ["It doesn't print any number", "It only prints odd numbers", "It only prints even numbers", "Syntax error"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What is the purpose of a function in JavaScript?",
+                options: ["To store data", "To repeat a task multiple times", "To encapsulate code that performs a specific task", "To create web pages"],
+                correctAnswer: 2,
+            },
+            {
+                question: "How do you define a function in JavaScript?",
+                options: ["function = myFunc() {}", "function: myFunc() {}", "function myFunc() {}", "myFunc() = function {}"],
+                correctAnswer: 2,
+            },
+            {
+                question: "In JavaScript, what is a callback function?",
+                options: ["A function that runs after the page loads", "A function passed as an argument to another function", "A function that calls itself", "A function that performs an HTTP request"],
+                correctAnswer: 1,
+            },
+            {
+                question: "What is the result of trying to extend the length of an array using a function in JavaScript?function extendArray(arr) {arr.push(5);}let myArr = [1, 2, 3];extendArray(myArr);console.log(myArr.length);",
+                options: ["3", "4", "5", "Error"],
+                correctAnswer: 1,
+            },
+            {
+                question: "Identify the error in this function:function multiply(a, b) {console.log(a * b);}",
+                options: ["It does not return any value", "It returns the wrong value", "Syntax error", "No error"],
+                correctAnswer: 0,
+            },
+        ],
+    },
 ];
