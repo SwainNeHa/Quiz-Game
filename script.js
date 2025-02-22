@@ -104,7 +104,7 @@ const renderQuestion = () => {
     resetTimer();
     startTimer();
 
-    // Update the UPI
+    // Update the UI
     answerOptions.innerHTML = "";
     nextQuestionBtn.style.visibility = "hidden";
     quizContainer.querySelector(".quiz-timer").style.background = "#32313c";
